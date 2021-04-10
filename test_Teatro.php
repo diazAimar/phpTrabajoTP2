@@ -145,7 +145,7 @@
                     }
                 } while (!$esNum && $duracionFuncion < 1);
                 if($i >= 1){
-                    $esHorarioDisponible = revisarDisponibilidadHorario($funcionesArreglo, $horarioFuncion, $duracionFuncion, ($i-1));
+                    $esHorarioDisponible = revisarDisponibilidadHorario($funcionesArreglo, $horarioFuncion, $duracionFuncion, $i);
                 }
             } while($esHorarioDisponible == false);
 
